@@ -1,0 +1,184 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Generovany toolbox\Finalny\DP3_Toolbox\DP_Thesis_Custom_FCW_Algorithm.prj" location="C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Generovany toolbox\Finalny\DP3_Toolbox" name="DP_Thesis_Custom_FCW_Algorithm" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>DP_Thesis_Custom_FCW_Algorithm</param.appname>
+    <param.authnamewatermark>Adam Gajdoš</param.authnamewatermark>
+    <param.email>xgajdosa@stuba.sk</param.email>
+    <param.company />
+    <param.summary>Toolbox containing total of 3 FCW algorithms and Simulink template of our FCW assistant model.</param.summary>
+    <param.description>FCW Algorithm developed as part of DP thesis at STUBA FIIT.
+Calculates warning and critical braking distance which are then compared to actual distance from nearest obstacle.
+Resolves situation with following key: "1" for Safe, "0" for Attention, "-1" for Dangerous.</param.description>
+    <param.screenshot>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\FCW_Toolbox_Img\Toolbox_Title_Img.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\DP_Thesis_Custom_FCW_Algorithm.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>c627086a-394e-4349-8571-74ccfde3d4d0</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+.git/
+.git*</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="DP3_FCW"&gt;
+      &lt;example name="Run Example" type="html"&gt;
+         &lt;file type="source"&gt;/html/RunExample.html&lt;/file&gt;
+         &lt;file type="main"&gt;/RunExample.m&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\info.xml</param.docs>
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>true</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start />
+    <param.release.end />
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.company />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.pcodedmfiles />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.start />
+      <param.release.end />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Berkeley_FCW_Algo.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Berkeley_FCW_Constants.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Custom_FCW_Algo.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Custom_FCW_Constants.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\demos.xml</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\FCW_Algo.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\FCW_Assistant_Status.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\FCW_ISO_Verification.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\FCW_Matlab_Main.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\FCW_Simulink.slx</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\FCW_Simulink.slxc</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\FCW_Toolbox_Img</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\html</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\info.xml</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\README.md</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\resources</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Road_Condition.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Road_Data.xlsx</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Road_Steep.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Road_Type.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\RunExample.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Safety_Status.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\Simulink_Template</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\slprj</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\TTC_FCW_Algo.m</file>
+      <file>C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Matlab\DP3\DP3_FCW\TTC_FCW_Constants.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="DP_Thesis_Custom_FCW_Algorithm.mltbx" optional="false">C:\Users\adamg\OneDrive\Počítač\DP_Implementacia_Final\Generovany toolbox\Finalny\DP3_Toolbox\DP_Thesis_Custom_FCW_Algorithm.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
